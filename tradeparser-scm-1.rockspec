@@ -19,6 +19,10 @@ external_dependencies = {
     };
 }
 
+dependencies = {
+   "lua >= 5.1",
+}
+
 build = {
     type = 'cmake';
     variables = {
